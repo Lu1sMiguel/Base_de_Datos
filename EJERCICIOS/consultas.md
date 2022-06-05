@@ -13,6 +13,8 @@ En la BD utilizada en clase realiza las siguientes consultas:
 * SELECT nombre_empleado, codigo_de_sucursal FROM empleados INNER JOIN sucursal on codigo_de_sucursal=nif;
 * ![imagen](https://user-images.githubusercontent.com/102439815/172028518-c90b880a-2b45-4bf5-902e-3db83e819489.png)
 * Muestra que periodistas colaboraron en x revista y en que sucursal se publico la revista
+* SELECT nombre_periodista, titulo, codigo_de_sucursal FROM periodistas INNER JOIN trabajan on nif=nif1 INNER JOIN revista on         numero_de_registro2=numero_de_registro INNER JOIN publican on numero_de_registro1=numero_de_registro INNER JOIN sucursal on codigo_de_sucursal2=codigo_de_sucursal;
+* ![imagen](https://user-images.githubusercontent.com/102439815/172029515-8014be34-da96-4375-817e-65ae342b6bc7.png)
 * Mustra que seccion esta en x revista, en que sucursal se imprimio y que empleados estan en esa sucursal.
 * En la tabla peridistas muestra solo los que escriban sobre cine
 * De la tabla revistas muestra las que sean de publicacion quincenal
