@@ -18,8 +18,8 @@ Ejercicio:
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 - Da un atributo a los campos en los que se requiera se tengan datos que no se puedan repetir.
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
-
-
+- CHAR es una cadena de caracteres de longitud fija.
+- VARCHAR es una cadena de caracteres de longitud variable.
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 - Lenguaje de consulta estructurada.
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
