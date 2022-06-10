@@ -15,7 +15,11 @@ Preguntas:
 - Solucionar pérdida e incidencia de datos
 - Asegurar la seguridad en los datos
 2. Indíque cinco responsabilidades del sistema gestor de bases de datos (valor 1.5)
-
+- Dar soporte al equipo de desarrollo, seguridad informatica y redes
+- Instalar, configurar y gestionar bases de datos
+- Especificar restricciones de integridad para asegurar los datos
+- Definir el esquema de diccionario de datos
+- Garantizar la alta disponibilidad de la base de datos
 3. En una BD al usuario del sistema se le brindarán recursos para realizar diversas
 operaciones sobre estos archivos, tales como: (valor 1.5)
 
