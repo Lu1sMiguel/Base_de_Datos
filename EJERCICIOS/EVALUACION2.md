@@ -4,11 +4,14 @@ Objetivo: Demostrar la correcta identificación de los conceptos del lenguaje SQ
 Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
-  SELECT, INSERT, UPDATE, DELETE
+- SELECT 
+- INSERT 
+- UPDATE 
+- DELETE
 2. Menciona 3 tipos de datos que existen: (valor .85)
-  char(n) y varchar(n): cadena de caracteres de longitud fija y variable. 
-  int, smallint y bigint: un entero, un entero pequeño y un entero grande.
-  float(n): un número de coma flotante.
+- char(n) y varchar(n): cadena de caracteres de longitud fija y variable. 
+- int, smallint y bigint: un entero, un entero pequeño y un entero grande.
+- float(n): un número de coma flotante.
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
