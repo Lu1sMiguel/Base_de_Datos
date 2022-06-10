@@ -65,3 +65,26 @@ Modelo entidad/relación
 
 
 Base de datos para MySQL
+
+CREATE DATABASE tienda_de_informatica;
+
+USE tienda_de_informatica;
+
+CREATE TABLE producto(
+codigo char(5) PRIMARY KEY,
+producto varchar(50) NOT NULL UNIQUE,
+precio float NOT NULL,
+fabricante VARCHAR(100)
+);
+
+INSERT INTO producto VALUES ('DD-23','Disco duro Sata3 1TB',86.99,'SEAGATE');
+INSERT INTO producto VALUES ('MM-34','Memoria RAM DDR4 8GB',120.6,'CRUCIAL');
+INSERT INTO producto VALUES ('DD-98','Disco SSD 1 TB',150.99,'SAMSUNG');
+INSERT INTO producto VALUES ('MM-98','GEFORCE GTX1050Ti',185.7,'GIGABYTE');
+INSERT INTO producto VALUES ('MM-23','GEFORCE GTX1080 Xtreme',755.6,'CRUCIAL');
+INSERT INTO producto VALUES ('MT-12','MONITOR 24 LED Full HD',202.1,'ASUS');
+INSERT INTO producto VALUES ('MT-08','MONITOR 27 LED Full HD',245.99,'ASUS');
+INSERT INTO producto VALUES ('LP-19','Portátil Yoga 520',559.2,'LENOVO');
+INSERT INTO producto VALUES ('LP-11','Portátil Ideapad 320',444.2,'LENOVO');
+INSERT INTO producto VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP');
+INSERT INTO producto VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180.3,'HP');
