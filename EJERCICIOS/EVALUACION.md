@@ -24,7 +24,7 @@ Preguntas:
 operaciones sobre estos archivos, tales como: (valor 1.5)
 
 4. ¿Qué es un Sistema de Información? (valor 1.5)
-
+ Es el conjunto de elementos que están orientados al tratamiento y administración de datos e información, organizados y listos para su posterior uso, generados para cubrir ciertas necesidad. Realiza cuatro actividades básicas: entrada, almacenamiento, procesamiento y salida de información.
 ## Práctica 2.
 
 2. Diseño de un modelo relacional
