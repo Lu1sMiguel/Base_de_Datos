@@ -15,7 +15,7 @@ Ejercicio:
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
-
+- Da un atributo a los campos en los que se requiera se tengan datos que no se puedan repetir.
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
 
