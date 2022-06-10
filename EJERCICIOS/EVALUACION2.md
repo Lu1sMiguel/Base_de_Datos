@@ -21,8 +21,7 @@ Ejercicio:
 
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
-
-
+- Lenguaje de consulta estructurada.
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
 
 ## Práctica 5.
