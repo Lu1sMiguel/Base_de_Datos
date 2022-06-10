@@ -13,7 +13,8 @@ Ejercicio:
 - int, smallint y bigint: un entero, un entero pequeño y un entero grande.
 - float(n): un número de coma flotante.
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
-
+- TRUNCATE elimina todas las filas de la tabla sin borrar la tabla y resetea los contadores de auto incremento a 0. 
+- SELECT borra la estructura de la tabla.
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 - Da un atributo a los campos en los que se requiera se tengan datos que no se puedan repetir.
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
