@@ -23,6 +23,7 @@ Ejercicio:
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 - Lenguaje de consulta estructurada.
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
+- Un editor visual de base de datos MySQ y que se caracteriza por su editor de diagramas.
 
 ## Práctica 5.
 ### Gestores de base de datos
