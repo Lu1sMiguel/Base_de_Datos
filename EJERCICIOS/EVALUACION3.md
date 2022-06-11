@@ -44,7 +44,7 @@ datos que se solicitan. (valor 4.5)
 - AVG(precio) As precio_medio
 - FROM producto
 - GROUP BY fabricante;
-- ![image](https://user-images.githubusercontent.com/102439815/173169182-a13306d1-3a59-4a59-8327-0596379909a6.png)
+- ![image](https://user-images.githubusercontent.com/102439815/173169225-2e95b3cd-82c3-4b7e-800f-997bc0281e4d.png)
 4. Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo,
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
