@@ -46,4 +46,4 @@ producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 - WHERE precio = (SELECT MAX(precio) FROM producto WHERE fabricante = 'LENOVO');
 - ![image](https://user-images.githubusercontent.com/102439815/173170905-d3ad01ac-14d9-4319-85b6-9288b2265925.png)
 
-
+https://www.db-fiddle.com/f/rWjbX1m3LiQzUHSVS862n5/3
