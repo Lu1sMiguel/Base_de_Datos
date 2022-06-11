@@ -13,8 +13,10 @@ Lista el nombre de todos los productos que hay en la tabla producto.
 - FROM producto;
 - ![image](https://user-images.githubusercontent.com/102439815/173169759-ad9190cf-aa80-4763-84dc-02388dab95fc.png)
 2. Lista todas las columnas de la tabla producto.
-
-
+- USE tienda_de_informatica;
+- SELECT *
+- FROM producto;
+- ![image](https://user-images.githubusercontent.com/102439815/173169822-d6979e2e-c71b-45bb-b384-14096d7bc562.png)
 3. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de
 todos los productos de la base de datos.
 
