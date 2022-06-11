@@ -23,6 +23,7 @@ todos los productos de la base de datos.
 - SELECT nombre_producto, precio, fabricante
 - FROM producto;
 - ![image](https://user-images.githubusercontent.com/102439815/173170017-17ae8eea-8dec-4ce2-9271-0ba38ace7233.png)
+
 Subconsultas (En la cláusula WHERE)
 1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER
 JOIN).
