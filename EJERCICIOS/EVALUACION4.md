@@ -9,7 +9,9 @@ alumnos con las siguientes columnas. (valor 18)
 Evaluación:
 
 Creación de la base de datos : 9 puntos.
+
 https://www.db-fiddle.com/f/daHFtUzr2dPMXEx2QWoNKf/0
+
 Creación de los Disparadores(Triggers): 9 puntos.
 
 Tabla alumnos:
