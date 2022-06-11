@@ -27,10 +27,12 @@ todos los productos de la base de datos.
 Subconsultas (En la cláusula WHERE)
 1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER
 JOIN).
-
-
+- USE tienda_de_informatica;
+- SELECT nombre_producto, fabricante
+- FROM producto
+- WHERE fabricante='LENOVO';
+- ![image](https://user-images.githubusercontent.com/102439815/173170150-c48b5dca-02e9-43a0-baff-50f9313cb85d.png)
 2. Devuelve todos los datos de los productos que tienen el mismo precio que el
 producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
-
 
 3. Lista el nombre del producto más caro del fabricante Lenovo.
