@@ -86,4 +86,4 @@ Base de datos para MySQL
 
 ![image](https://user-images.githubusercontent.com/102439815/173164043-83a4e8e3-8522-4ddd-a48f-cef24f2a3ea3.png)
 
-https://www.db-fiddle.com/f/pa2UujZUu1YfLMVe1KcvG1/1
+https://www.db-fiddle.com/f/rWjbX1m3LiQzUHSVS862n5/1
