@@ -37,7 +37,14 @@ productos. (valor 4.5)
 3. Muestra el precio máximo, precio mínimo y precio medio de los productos de cada
 uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los
 datos que se solicitan. (valor 4.5)
-
+- USE tienda_de_informatica;
+- SELECT fabricante,
+- MAX(precio) AS mayor_precio,
+- MIN(precio) AS menor_precio,
+- AVG(precio) As precio_medio
+- FROM producto
+- GROUP BY fabricante;
+- ![image](https://user-images.githubusercontent.com/102439815/173169182-a13306d1-3a59-4a59-8327-0596379909a6.png)
 4. Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo,
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
