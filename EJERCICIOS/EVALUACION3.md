@@ -12,7 +12,7 @@ Ejercicio:
 2. Realiza un diseño del modelo en estrella (valor 2)
 ![GestoresBD drawio](https://user-images.githubusercontent.com/102439815/173166061-ba01fcd1-8d13-479d-9220-abefe667e60a.png)
 3. Realiza un diseño del modelo copo de nieve (valor 2)
-![coponieve](https://user-images.githubusercontent.com/102439815/173166743-4842a178-9fc0-4c34-b038-71abdccb7e69.png)
+![copodenieve](https://user-images.githubusercontent.com/102439815/173168025-dfc5d464-5fff-4d7c-b26f-d7b0c81523fe.png)
 ## Práctica 7
 ### Funciones en SQL
 Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la gestión
