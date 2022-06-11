@@ -8,7 +8,10 @@ Lista el nombre de todos los productos que hay en la tabla producto.
 
 
 1. Lista los nombres y los precios de todos los productos de la tabla producto.
-
+- USE tienda_de_informatica;
+- SELECT nombre_producto, precio
+- FROM producto;
+- ![image](https://user-images.githubusercontent.com/102439815/173169759-ad9190cf-aa80-4763-84dc-02388dab95fc.png)
 2. Lista todas las columnas de la tabla producto.
 
 
