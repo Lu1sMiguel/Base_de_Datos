@@ -65,27 +65,26 @@ Modelo entidad/relación
 
 
 Base de datos para MySQL
-1 CREATE DATABASE tienda_de_informatica;
-2 
-3 USE tienda_de_informatica;
-4 CREATE TABLE producto(
-5 codigo char(5) PRIMARY KEY,
-6 producto varchar(50) NOT NULL UNIQUE,
-7 precio float NOT NULL,
-8 fabricante VARCHAR(100)
-9 );
-
-10 INSERT INTO producto VALUES ('DD-23','Disco duro Sata3 1TB',86.99,'SEAGATE');
-11 INSERT INTO producto VALUES ('MM-34','Memoria RAM DDR4 8GB',120.6,'CRUCIAL');
-12 INSERT INTO producto VALUES ('DD-98','Disco SSD 1 TB',150.99,'SAMSUNG');
-13 INSERT INTO producto VALUES ('MM-98','GEFORCE GTX1050Ti',185.7,'GIGABYTE');
-14 INSERT INTO producto VALUES ('MM-23','GEFORCE GTX1080 Xtreme',755.6,'CRUCIAL');
-15 INSERT INTO producto VALUES ('MT-12','MONITOR 24 LED Full HD',202.1,'ASUS');
-16 INSERT INTO producto VALUES ('MT-08','MONITOR 27 LED Full HD',245.99,'ASUS');
-17 INSERT INTO producto VALUES ('LP-19','Portátil Yoga 520',559.2,'LENOVO');
-18 INSERT INTO producto VALUES ('LP-11','Portátil Ideapad 320',444.2,'LENOVO');
-19 INSERT INTO producto VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP');
-20 INSERT INTO producto VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180.3,'HP');
+- 1 CREATE DATABASE tienda_de_informatica;
+- 2 
+- 3 USE tienda_de_informatica;
+- 4 CREATE TABLE producto(
+- 5 codigo char(5) PRIMARY KEY,
+- 6 producto varchar(50) NOT NULL UNIQUE,
+- 7 precio float NOT NULL,
+- 8 fabricante VARCHAR(100)
+- 9 );
+- 10 INSERT INTO producto VALUES ('DD-23','Disco duro Sata3 1TB',86.99,'SEAGATE');
+- 11 INSERT INTO producto VALUES ('MM-34','Memoria RAM DDR4 8GB',120.6,'CRUCIAL');
+- 12 INSERT INTO producto VALUES ('DD-98','Disco SSD 1 TB',150.99,'SAMSUNG');
+- 13 INSERT INTO producto VALUES ('MM-98','GEFORCE GTX1050Ti',185.7,'GIGABYTE');
+- 14 INSERT INTO producto VALUES ('MM-23','GEFORCE GTX1080 Xtreme',755.6,'CRUCIAL');
+- 15 INSERT INTO producto VALUES ('MT-12','MONITOR 24 LED Full HD',202.1,'ASUS');
+- 16 INSERT INTO producto VALUES ('MT-08','MONITOR 27 LED Full HD',245.99,'ASUS');
+- 17 INSERT INTO producto VALUES ('LP-19','Portátil Yoga 520',559.2,'LENOVO');
+- 18 INSERT INTO producto VALUES ('LP-11','Portátil Ideapad 320',444.2,'LENOVO');
+- 19 INSERT INTO producto VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP');
+- 20 INSERT INTO producto VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180.3,'HP');
 ![image](https://user-images.githubusercontent.com/102439815/173164043-83a4e8e3-8522-4ddd-a48f-cef24f2a3ea3.png)
 
 https://www.db-fiddle.com/f/pa2UujZUu1YfLMVe1KcvG1/1
