@@ -34,5 +34,9 @@ JOIN).
 - ![image](https://user-images.githubusercontent.com/102439815/173170150-c48b5dca-02e9-43a0-baff-50f9313cb85d.png)
 2. Devuelve todos los datos de los productos que tienen el mismo precio que el
 producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
-
+- USE tienda_de_informatica;
+- SELECT *
+- FROM producto
+- WHERE precio = (SELECT MAX(precio) FROM producto WHERE fabricante='LENOVO');
+- ![image](https://user-images.githubusercontent.com/102439815/173170513-fc77d5d9-eab0-49d4-8022-3be15ea21b5a.png)
 3. Lista el nombre del producto más caro del fabricante Lenovo.
