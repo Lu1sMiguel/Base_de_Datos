@@ -20,6 +20,7 @@ Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la ge
 Ejercicio:
 
 1. Calcula el número total de productos que hay en la tabla productos. (valor 4.5)
+- USE tienda_de_informatica;
 - SELECT count(nombre_producto) FROM producto;
 - ![image](https://user-images.githubusercontent.com/102439815/173168115-b1ecdfac-1c9c-4226-aa34-7b7ee899fcca.png)
 2. Muestra el número total de productos que tiene cada uno de los fabricantes. El listado
@@ -27,7 +28,12 @@ también debe incluir los fabricantes que no tienen ningún producto. El resulta
 mostrará dos columnas, una con el nombre del fabricante y otra con el número de
 productos que tiene. Ordene el resultado descendentemente por el número de
 productos. (valor 4.5)
-
+- USE tienda_de_informatica;
+- SELECT fabricante, count(fabricante) AS productos_por_fabricante
+- FROM producto
+- GROUP BY fabricante
+- ORDER BY productos_por_fabricante;
+- ![image](https://user-images.githubusercontent.com/102439815/173168772-5d552741-be2c-4c69-afab-e789d182728b.png)
 3. Muestra el precio máximo, precio mínimo y precio medio de los productos de cada
 uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los
 datos que se solicitan. (valor 4.5)
