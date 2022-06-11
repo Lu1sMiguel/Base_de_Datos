@@ -57,11 +57,9 @@ Tienda de informática
 ![image](https://user-images.githubusercontent.com/91554777/170415101-717bca19-3644-46a9-8a57-8d5940c5d283.png)
 
 
-
-
 Modelo entidad/relación
 
-
+![GestoresBD drawio](https://user-images.githubusercontent.com/102439815/173164874-1bd57dc1-dd7e-4135-a553-9b88f4e63cd0.png)
 
 
 Base de datos para MySQL
@@ -85,6 +83,7 @@ Base de datos para MySQL
 - 18 INSERT INTO producto VALUES ('LP-11','Portátil Ideapad 320',444.2,'LENOVO');
 - 19 INSERT INTO producto VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP');
 - 20 INSERT INTO producto VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180.3,'HP');
+
 ![image](https://user-images.githubusercontent.com/102439815/173164043-83a4e8e3-8522-4ddd-a48f-cef24f2a3ea3.png)
 
 https://www.db-fiddle.com/f/pa2UujZUu1YfLMVe1KcvG1/1
