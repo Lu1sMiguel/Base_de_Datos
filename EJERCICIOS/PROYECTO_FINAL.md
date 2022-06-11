@@ -29,3 +29,5 @@ precio y categoría.
 un código de categoría único.
 
 ● Una pieza sólo puede pertenecer a una categoría.
+
+![proyectofinal drawio](https://user-images.githubusercontent.com/102439815/173207090-dfa99d5c-b1c0-49e5-9fad-c1765a7f68ee.png)
