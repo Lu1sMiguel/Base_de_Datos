@@ -47,3 +47,48 @@ Una vez creados los triggers escribe varias sentencias de inserción y actualiza
 sobre la tabla alumnos y verifica que los triggers se están ejecutando
 correctamente.
 
+ Schema SQL
+
+- CREATE DATABASE test1;
+- 
+- USE test1;
+- 
+- CREATE TABLE alumnos(
+- id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+- nombre varchar(50) NOT NULL,
+- apellido1 varchar(50) NOT NULL,
+- apellido2 varchar(50) NOT NULL,
+- nota float NOT NULL
+);
+
+--Creacion del trigger
+- CREATE TABLE registros(
+- registro varchar(100)
+- );
+- 
+- DELIMITER //
+- CREATE TRIGGER trigger_check_nota_before_insert BEFORE INSERT ON alumnos
+- FOR EACH ROW BEGIN
+- INSERT INTO registros(registro) VALUES ('se ingreso un registro');
+- END//
+- DELIMITER ;
+- 
+- DELIMITER //
+- CREATE TRIGGER tg_check_nota_before_update BEFORE UPDATE ON alumnos
+- FOR EACH ROW BEGIN
+- INSERT INTO registros(registro) VALUES ('se modifico un registro');
+- END//
+- DELIMITER ;
+- 
+- INSERT INTO alumnos VALUES(1,'Ernesto','Gonzales','Uri',4.0);
+
+ Query SQL
+ 
+- USE test1;
+- Select * FROM alumnos;
+- Select * FROM registros;
+- ![imagen](https://user-images.githubusercontent.com/102439815/173208594-76409d79-55c1-43e7-b158-7257120e540a.png)
+
+
+
+
