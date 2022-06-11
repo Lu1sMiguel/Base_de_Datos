@@ -48,5 +48,16 @@ datos que se solicitan. (valor 4.5)
 4. Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo,
 precio medio y el número total de productos de los fabricantes que tienen un precio
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
+- USE tienda_de_informatica;
+- SELECT fabricante,
+- MAX(precio) AS precio_maximo,
+- MIN(precio) AS precio_minimo,
+- AVG(precio) As precio_medio,
+- count(fabricante) AS productos_por_fabricante
+- FROM producto
+- WHERE precio > 200
+- GROUP BY fabricante;
+- ![image](https://user-images.githubusercontent.com/102439815/173169512-3d9a6f67-c588-4c62-889d-353e5399eda1.png)
+- https://www.db-fiddle.com/f/rWjbX1m3LiQzUHSVS862n5/2
 
 
