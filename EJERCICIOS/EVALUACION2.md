@@ -84,6 +84,6 @@ Base de datos para MySQL
 - 19 INSERT INTO producto VALUES ('IM-56','Impresora HP Deskjet 3720',59.99,'HP');
 - 20 INSERT INTO producto VALUES ('IP-54','Impresora HP Laserjet Pro M26nw',180.3,'HP');
 
-![image](https://user-images.githubusercontent.com/102439815/173164043-83a4e8e3-8522-4ddd-a48f-cef24f2a3ea3.png)
+![image](https://user-images.githubusercontent.com/102439815/173169596-2727f63a-18a2-4f41-84b5-1c2838214d74.png)
 
 https://www.db-fiddle.com/f/rWjbX1m3LiQzUHSVS862n5/1
