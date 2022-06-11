@@ -10,7 +10,7 @@ Ejercicio:
 1. ¿Qué es un DataWarehouse?(valor 2)
 -  Es un sistema que agrega y combina información de diferentes fuentes en un almacén de datos único y centralizado; consistente para respaldar el análisis empresarial, la minería de datos, inteligencia artificial y Machine Learning.
 2. Realiza un diseño del modelo en estrella (valor 2)
-![estrella](https://user-images.githubusercontent.com/102439815/173165992-248fe99c-11c8-41ef-923a-485266a41332.png)
+![GestoresBD drawio](https://user-images.githubusercontent.com/102439815/173166061-ba01fcd1-8d13-479d-9220-abefe667e60a.png)
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
 
