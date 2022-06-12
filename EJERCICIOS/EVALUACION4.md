@@ -10,7 +10,7 @@ Evaluación:
 
 Creación de la base de datos : 9 puntos.
 
-https://www.db-fiddle.com/f/daHFtUzr2dPMXEx2QWoNKf/0
+https://www.db-fiddle.com/f/g9ejXHxF5T6dvtjqPRYGjK/1
 
 Creación de los Disparadores(Triggers): 9 puntos.
 
