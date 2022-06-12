@@ -81,6 +81,7 @@ correctamente.
 - DELIMITER ;
 - 
 - INSERT INTO alumnos VALUES(1,'Ernesto','Gonzales','Uri',4.0);
+- UPDATE alumnos set nombre='Lucas'
 
  Query SQL
  
@@ -88,6 +89,8 @@ correctamente.
 - Select * FROM alumnos;
 - Select * FROM registros;
 - ![imagen](https://user-images.githubusercontent.com/102439815/173208594-76409d79-55c1-43e7-b158-7257120e540a.png)
+- ![imagen](https://user-images.githubusercontent.com/102439815/173208825-84353f02-48bf-4070-954e-19f63ab40039.png)
+
 
 
 
